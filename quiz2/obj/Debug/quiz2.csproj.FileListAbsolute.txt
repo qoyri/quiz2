@@ -1,0 +1,14 @@
+D:\code\source\repos\quiz2\quiz2\bin\Debug\quiz2.exe.config
+D:\code\source\repos\quiz2\quiz2\bin\Debug\quiz2.exe
+D:\code\source\repos\quiz2\quiz2\bin\Debug\quiz2.pdb
+D:\code\source\repos\quiz2\quiz2\obj\Debug\quiz2.csproj.AssemblyReference.cache
+D:\code\source\repos\quiz2\quiz2\obj\Debug\MainWindow.baml
+D:\code\source\repos\quiz2\quiz2\obj\Debug\MainWindow.g.cs
+D:\code\source\repos\quiz2\quiz2\obj\Debug\App.g.cs
+D:\code\source\repos\quiz2\quiz2\obj\Debug\quiz2_MarkupCompile.cache
+D:\code\source\repos\quiz2\quiz2\obj\Debug\quiz2.g.resources
+D:\code\source\repos\quiz2\quiz2\obj\Debug\quiz2.Properties.Resources.resources
+D:\code\source\repos\quiz2\quiz2\obj\Debug\quiz2.csproj.GenerateResource.cache
+D:\code\source\repos\quiz2\quiz2\obj\Debug\quiz2.csproj.CoreCompileInputs.cache
+D:\code\source\repos\quiz2\quiz2\obj\Debug\quiz2.exe
+D:\code\source\repos\quiz2\quiz2\obj\Debug\quiz2.pdb

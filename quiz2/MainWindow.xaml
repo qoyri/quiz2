@@ -1,0 +1,33 @@
+﻿<Window x:Class="quiz2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="El Quiz" Height="450" Width="800" Background="Black" Icon="/logo.png">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="25"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock x:Name="txtQuestion" Text="Question" FontSize="24" TextWrapping="Wrap" Grid.Row="1" Margin="10" Foreground="White"/>
+
+        <Image x:Name="qImage" Grid.Row="2" Height="200" Margin="10" Stretch="Uniform"/>
+
+        <StackPanel Grid.Row="3" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="10">
+            <Button x:Name="ans1" Content="Réponse 1" Click="AnswerButton_Click" Margin="5" Width="150" Background="#FF259E86"/>
+            <Button x:Name="ans2" Content="Réponse 2" Click="AnswerButton_Click" Margin="5" Width="150" Background="#FF0C5F74"/>
+            <Button x:Name="ans3" Content="Réponse 3" Click="AnswerButton_Click" Margin="5" Width="150" Background="#FF28479A"/>
+            <Button x:Name="ans4" Content="Réponse 4" Click="AnswerButton_Click" Margin="5" Width="150" Background="#FF463BB1"/>
+        </StackPanel>
+
+        <ProgressBar x:Name="progressBar"
+             Height="15"
+             Minimum="0"
+             Maximum="100"
+             Value="0"
+             Grid.Row="0" />
+        <Button x:Name="restartButton_Copy" Content="🔃" Click="RestartButton_Click" Margin="752,6,11,16" Grid.Row="1" Background="Red"/>
+
+    </Grid>
+</Window>
